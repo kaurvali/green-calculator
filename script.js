@@ -43,7 +43,10 @@ function setLanguage(language) {
         const key = element.getAttribute('data-i18n');
         element.textContent = translations[language][key];
     });
-    removeAllChildren("results")
+    if (hasChildren('results')) {
+        removeAllChildren("results");
+        getResults(language);
+    }
 }
 
 function getResults(language) {
@@ -118,14 +121,18 @@ function createList(issueTopics) {
 
 }
 
+function hasChildren(elementId) {
+    var element = document.getElementById(elementId);
+    if (element && element.childNodes.length > 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
 function removeAllChildren(id) {
     var container = document.getElementById(id);
     while (container.firstChild) {
         container.removeChild(container.firstChild);
     }
-}
-
-function changeLanguage(language) {
-    setLanguage(language);
-    getResults(language)
 }
