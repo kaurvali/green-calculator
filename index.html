@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JA Green Calculator</title>
+    <title>Green Calculator</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js"></script>
 </head>
@@ -12,13 +12,19 @@
 <body>
     <header class="app-header">
         <div class="logo">
-            <img src="logo.png" alt="Logo">
+            <img src="logo.svg" alt="Logo">
         </div>
         <div class="language-options">
             <div class="language-options">
-                <span onclick="setLanguage('ee')">ee</span>
-                <span>|</span>
-                <span onclick="setLanguage('en')">en</span>
+                <label onclick="setLanguage('en')">en</label>
+                <label>|</label>
+                <label onclick="setLanguage('ee')">ee</label>
+                <label>|</label>
+                <label onclick="setLanguage('lt')">lt</label>
+                <label>|</label>
+                <label onclick="setLanguage('pt')">pt</label>
+                <label>|</label>
+                <label onclick="setLanguage('el')">el</label>
             </div>
         </div>
     </header>
@@ -31,28 +37,28 @@
                     <h3 data-i18n="resources"></h3>
                     <ul>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="resources_option1"></span>
+                            <input type="checkbox" id="q_resources_1"/>
+                            <label for="q_resources_1" data-i18n="resources_option1"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="resources_option2"></span>
+                            <input type="checkbox" id="q_resources_2"/>
+                            <label for="q_resources_2" data-i18n="resources_option2"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="resources_option3"></span>
+                            <input type="checkbox" id="q_resources_3"/>
+                            <label for="q_resources_3" data-i18n="resources_option3"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="resources_option4"></span>
+                            <input type="checkbox" id="q_resources_4"/>
+                            <label for="q_resources_4" data-i18n="resources_option4"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="resources_option5"></span>
+                            <input type="checkbox" id="q_resources_5"/>
+                            <label for="q_resources_5" data-i18n="resources_option5"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="resources_option6"></span>
+                            <input type="checkbox" id="q_resources_6"/>
+                            <label for="q_resources_6" data-i18n="resources_option6"></label>
                         </li>
                     </ul>
                 </div>
@@ -60,28 +66,28 @@
                     <h3 data-i18n="production"></h3>
                     <ul>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="production_option1"></span>
+                            <input type="checkbox" id="q_production_1"/>
+                            <label for="q_production_1" data-i18n="production_option1"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="production_option2"></span>
+                            <input type="checkbox" id="q_production_2"/>
+                            <label for="q_production_2" data-i18n="production_option2"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="production_option3"></span>
+                            <input type="checkbox" id="q_production_3"/>
+                            <label for="q_production_3" data-i18n="production_option3"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="production_option4"></span>
+                            <input type="checkbox" id="q_production_4"/>
+                            <label for="q_production_4" data-i18n="production_option4"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="production_option5"></span>
+                            <input type="checkbox" id="q_production_5"/>
+                            <label for="q_production_5" data-i18n="production_option5"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="production_option6"></span>
+                            <input type="checkbox" id="q_production_6"/>
+                            <label for="q_production_5" data-i18n="production_option6"></label>
                         </li>
                     </ul>
                 </div>
@@ -89,28 +95,28 @@
                     <h3 data-i18n="transport"></h3>
                     <ul>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="transport_option1"></span>
+                            <input type="checkbox" id="q_transport_1"/>
+                            <label for="q_transport_1" data-i18n="transport_option1"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="transport_option2"></span>
+                            <input type="checkbox" id="q_transport_2"/>
+                            <label for="q_transport_2" data-i18n="transport_option2"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="transport_option3"></span>
+                            <input type="checkbox" id="q_transport_3"/>
+                            <label for="q_transport_3" data-i18n="transport_option3"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="transport_option4"></span>
+                            <input type="checkbox" id="q_transport_4"/>
+                            <label for="q_transport_4" data-i18n="transport_option4"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="transport_option5"></span>
+                            <input type="checkbox" id="q_transport_5"/>
+                            <label for="q_transport_5" data-i18n="transport_option5"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="transport_option6"></span>
+                            <input type="checkbox" id="q_transport_6"/>
+                            <label for="q_transport_6" data-i18n="transport_option6"></label>
                         </li>
                     </ul>
                 </div>
@@ -118,24 +124,24 @@
                     <h3 data-i18n="packaging"></h3>
                     <ul>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="packaging_option1"></span>
+                            <input type="checkbox" id="q_packaging_1"/>
+                            <label for="q_packaging_1" data-i18n="packaging_option1"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="packaging_option2"></span>
+                            <input type="checkbox" id="q_packaging_2"/>
+                            <label for="q_packaging_2" data-i18n="packaging_option2"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="packaging_option3"></span>
+                            <input type="checkbox" id="q_packaging_3"/>
+                            <label for="q_packaging_3" data-i18n="packaging_option3"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="packaging_option4"></span>
+                            <input type="checkbox" id="q_packaging_4"/>
+                            <label for="q_packaging_4" data-i18n="packaging_option4"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="packaging_option5"></span>
+                            <input type="checkbox" id="q_packaging_5"/>
+                            <label for="q_packaging_5" data-i18n="packaging_option5"></label>
                         </li>
                     </ul>
                 </div>
@@ -143,24 +149,24 @@
                     <h3 data-i18n="waste"></h3>
                     <ul>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="waste_option1"></span>
+                            <input type="checkbox" id="q_waste_1"/>
+                            <label for="q_waste_1" data-i18n="waste_option1"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="waste_option2"></span>
+                            <input type="checkbox" id="q_waste_2"/>
+                            <label for="q_waste_2" data-i18n="waste_option2"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="waste_option3"></span>
+                            <input type="checkbox" id="q_waste_3"/>
+                            <label for="q_waste_3" data-i18n="waste_option3"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="waste_option4"></span>
+                            <input type="checkbox" id="q_waste_4"/>
+                            <label for="q_waste_4" data-i18n="waste_option4"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="waste_option5"></span>
+                            <input type="checkbox" id="q_waste_5"/>
+                            <label for="q_waste_5" data-i18n="waste_option5"></label>
                         </li>
                     </ul>
                 </div>
@@ -168,24 +174,24 @@
                     <h3 data-i18n="marketing"></h3>
                     <ul>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="marketing_option1"></span>
+                            <input type="checkbox" id="q_marketing_1"/>
+                            <label for="q_marketing_1" data-i18n="marketing_option1"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="marketing_option2"></span>
+                            <input type="checkbox" id="q_marketing_2"/>
+                            <label for="q_marketing_2" data-i18n="marketing_option2"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="marketing_option3"></span>
+                            <input type="checkbox" id="q_marketing_3"/>
+                            <label for="q_marketing_3" data-i18n="marketing_option3"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="marketing_option4"></span>
+                            <input type="checkbox" id="q_marketing_4"/>
+                            <label for="q_marketing_4" data-i18n="marketing_option4"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="marketing_option5"></span>
+                            <input type="checkbox" id="q_marketing_5"/>
+                            <label for="q_marketing_5" data-i18n="marketing_option5"></label>
                         </li>
                     </ul>
                 </div>
@@ -193,20 +199,20 @@
                     <h3 data-i18n="office"></h3>
                     <ul>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="office_option1"></span>
+                            <input type="checkbox" id="q_office_1"/>
+                            <label for="q_office_1" data-i18n="office_option1"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="office_option2"></span>
+                            <input type="checkbox" id="q_office_2"/>
+                            <label for="q_office_2" data-i18n="office_option2"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="office_option3"></span>
+                            <input type="checkbox" id="q_office_3"/>
+                            <label for="q_office_3" data-i18n="office_option3"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="office_option4"></span>
+                            <input type="checkbox" id="q_office_4"/>
+                            <label for="q_office_4" data-i18n="office_option4"></label>
                         </li>
                     </ul>
                 </div>
@@ -214,24 +220,24 @@
                     <h3 data-i18n="product"></h3>
                     <ul>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="product_option1"></span>
+                            <input type="checkbox" id="q_product_1"/>
+                            <label for="q_product_1" data-i18n="product_option1"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="product_option2"></span>
+                            <input type="checkbox" id="q_product_2"/>
+                            <label for="q_product_2" data-i18n="product_option2"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="product_option3"></span>
+                            <input type="checkbox" id="q_product_3"/>
+                            <label for="q_product_3" data-i18n="product_option3"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="product_option4"></span>
+                            <input type="checkbox" id="q_product_4"/>
+                            <label for="q_product_4" data-i18n="product_option4"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="product_option5"></span>
+                            <input type="checkbox" id="q_product_5"/>
+                            <label for="q_product_5" data-i18n="product_option5"></label>
                         </li>
                     </ul>
                 </div>
@@ -239,20 +245,20 @@
                     <h3 data-i18n="selling"></h3>
                     <ul>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="selling_option1"></span>
+                            <input type="checkbox" id="q_selling_1"/>
+                            <label for="q_selling_1" data-i18n="selling_option1"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="selling_option2"></span>
+                            <input type="checkbox" id="q_selling_2"/>
+                            <label for="q_selling_2" data-i18n="selling_option2"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="selling_option3"></span>
+                            <input type="checkbox" id="q_selling_3"/>
+                            <label for="q_selling_3" data-i18n="selling_option3"></label>
                         </li>
                         <li>
-                            <input type="checkbox" />
-                            <span data-i18n="selling_option4"></span>
+                            <input type="checkbox" id="q_selling_4"/>
+                            <label for="q_selling_4" data-i18n="selling_option4"></label>
                         </li>
                     </ul>
                 </div>
@@ -266,18 +272,24 @@
     <div id="overlay" class="overlay"></div>
     <div id="results-box" class="results-box">
         <div class="result-section success" id="ok">
-            <span data-i18n="great"></span>
+            <label for="q" data-i18n="great"></label>
         </div>
         <div class="result-section warning" id="medium">
-            <span data-i18n="ok"></span>
+            <label for="q" data-i18n="ok"></label>
         </div>
         <div class="result-section error" id="bad">
-            <span data-i18n="bad"></span>
+            <label for="q" data-i18n="bad"></label>
         </div>
         <div class="result-content">
             <div id="results"></div>
             <button onclick="hideResults()" data-i18n="back"></button>
         </div>
+    </div>
+    <div class="sponsor-logos">
+        <img src="img/ja_ee.png" alt="JA Estonia">
+        <img src="img/ja_pt.png" alt="JA Portugal">
+        <img src="img/ja_lt.png" id="lt" alt="JA Lithuania">
+        <img src="img/ja_cy.png" alt="JA Cyprus">
     </div>
     <footer>
         <p>2024, Developed by Kaur Vali
