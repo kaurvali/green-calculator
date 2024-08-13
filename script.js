@@ -54,7 +54,7 @@ function getResults(language) {
     let status = determineStatus(issueTopics, document.querySelectorAll('.question').length);
 
     const resultsDiv = document.getElementById("results");
-    var text = document.createElement("p");
+    let text = document.createElement("p");
 
     if (status === statuses.OK) {
         document.getElementById("ok").style.display = "block";
@@ -65,13 +65,13 @@ function getResults(language) {
     } else if (status === statuses.MEDIUM) {
         document.getElementById("medium").style.display = "block";
 
-        var text1 = document.createElement("p");
+        let text1 = document.createElement("p");
         text1.textContent = translations[language].issues_with;
         resultsDiv.appendChild(text1);
 
         createList(issueTopics);
 
-        var text2 = document.createElement("p");
+        let text2 = document.createElement("p");
         text2.textContent = translations[language].issues_with_followup
         resultsDiv.appendChild(text2);
     } else {
@@ -95,6 +95,14 @@ function checkResults(language) {
             if (checkbox.checked) countOk++;
         });
 
+        if (questionValue == "packaging" && checkboxes[0].checked) {
+            // quick workaround for packaging issue
+            return;
+        }
+        if (questionValue == "waste" && checkboxes[1].checked) {
+            // quick workaround for waste issue
+            return;
+        }
         if (countOk < 3) {
             const translation = translations[language][questionValue];
             issueTopics.push(translation.toLowerCase());
@@ -110,28 +118,24 @@ function determineStatus(issueTopics, questionLength) {
 }
 
 function createList(issueTopics) {
-    var ul = document.createElement("ul");
+    let ul = document.createElement("ul");
     issueTopics.forEach(function (item) {
-        var listItem = document.createElement("li");
+        let listItem = document.createElement("li");
         listItem.textContent = item;
         ul.appendChild(listItem);
     });
-    var result = document.getElementById("results");
+    let result = document.getElementById("results");
     result.appendChild(ul);
 
 }
 
 function hasChildren(elementId) {
-    var element = document.getElementById(elementId);
-    if (element && element.childNodes.length > 0) {
-        return true;
-    } else {
-        return false;
-    }
+    let element = document.getElementById(elementId);
+    return element && element.childNodes.length > 0;
 }
 
 function removeAllChildren(id) {
-    var container = document.getElementById(id);
+    let container = document.getElementById(id);
     while (container.firstChild) {
         container.removeChild(container.firstChild);
     }
