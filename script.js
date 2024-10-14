@@ -15,6 +15,11 @@ function showResults() {
     document.getElementById("results-box").style.display = "block";
 }
 
+function closeIntro() {
+    document.getElementById("intro").style.display = "none";
+    document.getElementById("intro-box").style.display = "none";
+}
+
 function hideResults() {
     let resultsSection = document.getElementsByClassName("result-section");
     let resultsArray = Array.from(resultsSection)
@@ -32,7 +37,7 @@ async function loadTranslations() {
     const response = await fetch('translations.json', { mode: 'cors' });
     if (response.ok) {
         translations = await response.json();
-        setLanguage('ee');
+        setLanguage('en');
     }
 }
 

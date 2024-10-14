@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Green Calculator</title>
+    <title>Going Green Assessment Tool</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js"></script>
 </head>
@@ -29,12 +29,29 @@
         </div>
     </header>
     <div class="container">
-        <div class="content">
 
-            <h1 data-i18n="title"></h1>
+        <div id="intro" class="overlay"></div>
+        <div id="intro-box" class="intro-box">
+            <div class="intro-header">
+                <h2 data-i18n="title">Going Green Assessment Tool</h2>
+            </div>
+            <div class="intro-content">
+                <p data-i18n="intro_section1"></p>
+                <p data-i18n="intro_section2"></p>
+                <p data-i18n="intro_section3"></p>
+                <p data-i18n="intro_section4"></p>
+                <p data-i18n="intro_section5"></p>
+                <p data-i18n="intro_section6"></p>
+                <p data-i18n="intro_section7"></p>
+                <button onclick="closeIntro()" data-i18n="intro_ok"></button>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1 data-i18n="title">Going Green Assessment Tool</h1>
             <div id="questions">
                 <div class="question" value="resources">
-                    <h3 data-i18n="resources"></h3>
+                    <h3 data-i18n="resources">Resources</h3>
                     <ul>
                         <li>
                             <input type="checkbox" id="q_resources_1"/>
@@ -63,7 +80,7 @@
                     </ul>
                 </div>
                 <div class="question" value="production">
-                    <h3 data-i18n="production"></h3>
+                    <h3 data-i18n="production">Production</h3>
                     <ul>
                         <li>
                             <input type="checkbox" id="q_production_1"/>
@@ -92,7 +109,7 @@
                     </ul>
                 </div>
                 <div class="question" value="transport">
-                    <h3 data-i18n="transport"></h3>
+                    <h3 data-i18n="transport">Transport</h3>
                     <ul>
                         <li>
                             <input type="checkbox" id="q_transport_1"/>
@@ -121,7 +138,7 @@
                     </ul>
                 </div>
                 <div class="question" value="packaging">
-                    <h3 data-i18n="packaging"></h3>
+                    <h3 data-i18n="packaging">Packaging</h3>
                     <ul>
                         <li>
                             <input type="checkbox" id="q_packaging_1"/>
@@ -146,7 +163,7 @@
                     </ul>
                 </div>
                 <div class="question" value="waste">
-                    <h3 data-i18n="waste"></h3>
+                    <h3 data-i18n="waste">Waste</h3>
                     <ul>
                         <li>
                             <input type="checkbox" id="q_waste_1"/>
@@ -171,7 +188,7 @@
                     </ul>
                 </div>
                 <div class="question" value="marketing">
-                    <h3 data-i18n="marketing"></h3>
+                    <h3 data-i18n="marketing">Marketing</h3>
                     <ul>
                         <li>
                             <input type="checkbox" id="q_marketing_1"/>
@@ -196,7 +213,7 @@
                     </ul>
                 </div>
                 <div class="question" value="office">
-                    <h3 data-i18n="office"></h3>
+                    <h3 data-i18n="office">Office</h3>
                     <ul>
                         <li>
                             <input type="checkbox" id="q_office_1"/>
@@ -217,7 +234,7 @@
                     </ul>
                 </div>
                 <div class="question" value="product">
-                    <h3 data-i18n="product"></h3>
+                    <h3 data-i18n="product">Product</h3>
                     <ul>
                         <li>
                             <input type="checkbox" id="q_product_1"/>
@@ -242,7 +259,7 @@
                     </ul>
                 </div>
                 <div class="question" value="selling">
-                    <h3 data-i18n="selling"></h3>
+                    <h3 data-i18n="selling">Selling</h3>
                     <ul>
                         <li>
                             <input type="checkbox" id="q_selling_1"/>
@@ -272,13 +289,13 @@
     <div id="overlay" class="overlay"></div>
     <div id="results-box" class="results-box">
         <div class="result-section success" id="ok">
-            <label for="q" data-i18n="great"></label>
+            <label for="q" data-i18n="great">Great</label>
         </div>
         <div class="result-section warning" id="medium">
-            <label for="q" data-i18n="ok"></label>
+            <label for="q" data-i18n="ok">Ok</label>
         </div>
         <div class="result-section error" id="bad">
-            <label for="q" data-i18n="bad"></label>
+            <label for="q" data-i18n="bad">Bad</label>
         </div>
         <div class="result-content">
             <div id="results"></div>

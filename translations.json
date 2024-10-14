@@ -1,6 +1,6 @@
 {
     "en": {
-        "title": "Green Calculator for Businesses",
+        "title": "Going Green Assessment Tool",
         "resources": "Resources",
         "production": "Production",
         "transport": "Transport",
@@ -64,10 +64,18 @@
         "all_ok": "Review your answers and consider if there's anything more you could do even better!",
         "issues_with": "Consider your actions in the following categories: ",
         "issues_with_followup": "In these aspects, you're not yet sufficiently environmentally friendly.",
-        "you_should_work_harder": "Think about what you could do to make your business more environmentally friendly."
+        "you_should_work_harder": "Think about what you could do to make your business more environmentally friendly.",
+        "intro_ok": "OK",
+        "intro_section1": "Dear Student,",
+        "intro_section2": "This assessment tool is developed for you and is meant to support your learning process. Nowadays people understand more and more that accepting environmentally friendly lifestyle is a must to ensure the possibility of life on our beautiful planet for young people and future generations. Your everyday efforts are needed but companies who produce their products and services have the greatest impact on environment.  With this simple self-assessment tool you can think through the impact of your decisions as young entrepreneurs.",
+        "intro_section3": "In Going Green assessment tool you should tick the boxes of each statement that are true about your idea/student company/team. Sometimes the answer is true to some extent and to some extent false. Tick the box if it is more true than false, but keep it in your mind. ",
+        "intro_section4": "Remember, that it is self-assessment and it’s not intended to be used on other purposes. The best way to get most out of it is to pass the assessment twice. The first time individually and the second time with your group discussing through your opinions and choices. ",
+        "intro_section5": "When you have finished your assessment think if and how it is possible to act in a more environmentally friendly way.",
+        "intro_section6": "You may add the number of positive answers together but it is not possible to compare your grades with other groups because your products are different and your opportunities to decrease your footprint are either not the same.",
+        "intro_section7": "Good luck in using the Going Green Assessment Tool and in improving your performance as young entrepreneurs."
     },
     "ee": {
-        "title": "Ettevõtte roheluse kalkulaator",
+        "title": "Rohehindamise küsimustik",
         "resources": "Ressursid",
         "production": "Tootmine",
         "transport": "Transport",
@@ -131,7 +139,15 @@
         "all_ok": "Olete tublid, et pöörate tähelepanu roheteemadele! Vaadake oma vastused üle ja mõelge, kas saaksite midagi veel paremini teha!",
         "issues_with": "Olete tublid, et pöörate tähelepanu roheteemadele! Aga mõelge oma tegevused läbi ka järgnevates kategooriates:",
         "issues_with_followup": "Nendes aspektides ei ole te veel piisavalt keskkonnahoidlikud.",
-        "you_should_work_harder": "Olete roheteemaga vähe tegelenud, mõelge, mida saaksite teha, et teie ettevõtlus oleks keskkonnasõbralikum?"
+        "you_should_work_harder": "Olete roheteemaga vähe tegelenud, mõelge, mida saaksite teha, et teie ettevõtlus oleks keskkonnasõbralikum?",
+        "intro_ok": "OK",
+        "intro_section1": "Kallis ettevõtluse õppija!",
+        "intro_section2": "See enesehindamise küsimustik töötati välja sinu õppeprotsessi täiustamiseks. Tänapäeval taipab üha enam inimesi, et keskkonnasõbralik eluviis on ainuvõimalik elutingimuste tagamiseks meie kaunil planeedil nii praegustele noortele kui ka tulevatele põlvedele. Selleks on kindlasti vaja sinu igapäevaseid jõupingutusi, aga keskkonnale suurimat mõju avaldavad ettevõtted, kes toodavad meile vajalikke kaupu ja teenuseid. See väga lihtne enesehindamise küsimustik aitab sul analüüsida oma otsuste mõju noore ettevõtjana.",
+        "intro_section3": "Going Green (Muutu roheliseks) enesehinnangu küsimustikku täites tee märge ruutudesse, mis sinu idee, õpilasfirma või meeskonna kohta kehtivad. Vahel võib ka juhtuda, et väide on osaliselt tõene, aga osaliselt ei ole. Sel juhul tee ruudukesse märge, kui väide on rohkem tõene kui väär, aga pea meeles, et see vastus on tingimuslik.",
+        "intro_section4": "Kõige parem on kui teete hindamise läbi kaks korda. Esmalt tee seda üksinda ja teist korda koos oma rühmaga, arutades läbi oma arvamused ja valikud.",
+        "intro_section5": "Pea meeles, et see on enesehindamise vahend ning ei ole ette nähtud kasutamiseks teistel eesmärkidel. Kui oled hindamise lõpetanud, mõtle kuidas oleks võimalik tegutseda veelgi keskkonnasõbralikumalt.",
+        "intro_section6": "Võid liita positiivsete vastuste arvu kokku, aga saadud hinnet ei saa võrrelda teiste rühmadega, kuna tooted on erinevad ning seda on ka võimalused oma jalajälge vähendada.",
+        "intro_section7": "Õnn kaasa Rohehindamise küsimustiku kasutamiseks ja oma tegevuse jätkusuutlikumaks muutmisel noorte ettevõtjatena!"
       },
     "lt": {
         "title": "Žalias skaičiuotuvas verslui",
@@ -198,7 +214,15 @@
         "all_ok": "Peržiūrėkite savo atsakymus ir apsvarstykite, ar galėtumėte padaryti dar geriau!",
         "issues_with": "Apsvarstykite savo veiksmus šiose kategorijose: ",
         "issues_with_followup": "Šiais aspektais jūs dar nepakankamai draugiški aplinkai.",
-        "you_should_work_harder": "Apsvarstykite, ką galėtumėte padaryti, kad jūsų verslas taptų aplinkai draugiškesnis."
+        "you_should_work_harder": "Apsvarstykite, ką galėtumėte padaryti, kad jūsų verslas taptų aplinkai draugiškesnis.",
+        "intro_ok": "OK",
+        "intro_section1": "Mielas Studente,",
+        "intro_section2": "Šis vertinimo įrankis sukurtas specialiai tau ir skirtas padėti tavo mokymosi procesui. Šiais laikais žmonės vis labiau supranta, kad priimti aplinkai draugišką gyvenimo būdą yra būtina, siekiant užtikrinti gyvenimo galimybę mūsų gražioje planetoje jauniems žmonėms ir būsimoms kartoms. Tavo kasdienės pastangos yra reikalingos, bet didžiausią poveikį aplinkai daro įmonės, kurios gamina savo produktus ir teikia paslaugas. Su šiuo paprastu savianalizės įrankiu gali apsvarstyti savo sprendimų poveikį kaip jaunasis verslininkas.",
+        "intro_section3": "Vertindamas „Eiti žaliuoju“ įrankį, pažymėk kiekvieną teiginį, kuris yra teisingas tavo idėjai/studentų įmonei/komandai. Kartais atsakymas yra iš dalies teisingas ir iš dalies neteisingas. Pažymėk langelį, jei atsakymas labiau teisingas nei neteisingas, bet nepamiršk to savo galvoje.",
+        "intro_section4": "Atmink, kad tai yra savianalizė ir ji nėra skirta kitokiems tikslams. Geriausias būdas maksimaliai pasinaudoti šiuo įrankiu yra atlikti vertinimą du kartus. Pirmą kartą individualiai, o antrą kartą – su savo grupe, aptariant savo nuomones ir pasirinkimus.",
+        "intro_section5": "Baigęs vertinimą pagalvok, ar yra būdų veikti aplinkai draugiškiau.",
+        "intro_section6": "Galbūt norėsi sudėti teigiamų atsakymų skaičių, bet negalima lyginti savo balų su kitomis grupėmis, nes jūsų produktai skiriasi ir jūsų galimybės sumažinti savo pėdsaką nėra tos pačios.",
+        "intro_section7": "Sėkmės naudojant „Eiti žaliuoju“ vertinimo įrankį ir gerinant savo, kaip jaunųjų verslininkų, rezultatus."
       },
       "pt": {
         "title": "Calculadora Verde para Empresas",
@@ -265,7 +289,15 @@
         "all_ok": "Revise suas respostas e considere se há algo mais que você poderia fazer ainda melhor!",
         "issues_with": "Considere suas ações nas seguintes categorias: ",
         "issues_with_followup": "Nesses aspectos, você ainda não é suficientemente amigo do ambiente.",
-        "you_should_work_harder": "Pense no que você poderia fazer para tornar seu negócio mais amigo do ambiente."
+        "you_should_work_harder": "Pense no que você poderia fazer para tornar seu negócio mais amigo do ambiente.",
+        "intro_ok": "OK",
+        "intro_section1": "Caro Aluno,",
+        "intro_section2": "Esta ferramenta de avaliação foi desenvolvida para você e tem como objetivo apoiar o seu processo de aprendizado. Hoje em dia, as pessoas entendem cada vez mais que adotar um estilo de vida ecologicamente correto é essencial para garantir a possibilidade de vida em nosso belo planeta para os jovens e as futuras gerações. Seus esforços diários são importantes, mas as empresas que produzem produtos e serviços têm o maior impacto no meio ambiente. Com esta simples ferramenta de autoavaliação, você pode refletir sobre o impacto das suas decisões como jovem empreendedor.",
+        "intro_section3": "Na ferramenta de avaliação Going Green, você deve marcar as caixas de cada afirmação que forem verdadeiras sobre sua ideia/empresa estudantil/equipe. Às vezes, a resposta é parcialmente verdadeira e parcialmente falsa. Marque a caixa se for mais verdadeira do que falsa, mas mantenha isso em mente.",
+        "intro_section4": "Lembre-se de que é uma autoavaliação e não deve ser usada para outros fins. A melhor maneira de tirar o máximo proveito dela é fazer a avaliação duas vezes. A primeira vez individualmente e a segunda vez com seu grupo discutindo suas opiniões e escolhas.",
+        "intro_section5": "Quando terminar sua avaliação, pense se e como é possível agir de maneira mais ecológica.",
+        "intro_section6": "Você pode somar o número de respostas positivas, mas não é possível comparar suas notas com outros grupos porque seus produtos são diferentes e suas oportunidades de reduzir sua pegada também não são as mesmas.",
+        "intro_section7": "Boa sorte ao usar a Ferramenta de Avaliação Going Green e ao melhorar seu desempenho como jovem empreendedor."    
       },
       "el": {
         "title": "Πράσινος Υπολογιστής για Επιχειρήσεις",
@@ -332,6 +364,14 @@
         "all_ok": "Ελέγξτε τις απαντήσεις σας και σκεφτείτε αν υπάρχει κάτι που μπορείτε να κάνετε ακόμα καλύτερα!",
         "issues_with": "Εξετάστε τις ενέργειές σας στις ακόλουθες κατηγορίες: ",
         "issues_with_followup": "Σε αυτά τα σημεία, δεν είστε ακόμα αρκετά φιλικός προς το περιβάλλον.",
-        "you_should_work_harder": "Σκεφτείτε τι θα μπορούσατε να κάνετε για να κάνετε την επιχείρησή σας πιο φιλική προς το περιβάλλον."
+        "you_should_work_harder": "Σκεφτείτε τι θα μπορούσατε να κάνετε για να κάνετε την επιχείρησή σας πιο φιλική προς το περιβάλλον.",
+        "intro_ok": "OK",
+        "intro_section1": "Αγαπητέ Φοιτητή,",
+        "intro_section2": "Αυτό το εργαλείο αξιολόγησης αναπτύχθηκε για εσένα και έχει σκοπό να υποστηρίξει τη μαθησιακή σου διαδικασία. Σήμερα οι άνθρωποι κατανοούν ολοένα και περισσότερο ότι η υιοθέτηση ενός φιλικού προς το περιβάλλον τρόπου ζωής είναι απαραίτητη για να διασφαλιστεί η δυνατότητα ζωής στον όμορφο πλανήτη μας για τους νέους και τις μελλοντικές γενιές. Οι καθημερινές σου προσπάθειες είναι σημαντικές, αλλά οι εταιρείες που παράγουν προϊόντα και υπηρεσίες έχουν τον μεγαλύτερο αντίκτυπο στο περιβάλλον. Με αυτό το απλό εργαλείο αυτοαξιολόγησης μπορείς να σκεφτείς τον αντίκτυπο των αποφάσεών σου ως νεαρός επιχειρηματίας.",
+        "intro_section3": "Στο εργαλείο αξιολόγησης Going Green θα πρέπει να τσεκάρεις τα κουτάκια κάθε δήλωσης που είναι αληθινή για την ιδέα/εταιρεία φοιτητών/ομάδα σου. Μερικές φορές η απάντηση είναι εν μέρει αληθής και εν μέρει λανθασμένη. Τσεκάρετε το κουτάκι αν είναι περισσότερο αληθινό παρά λανθασμένο, αλλά κράτα το στο μυαλό σου.",
+        "intro_section4": "Θυμήσου ότι είναι αυτοαξιολόγηση και δεν προορίζεται για άλλους σκοπούς. Ο καλύτερος τρόπος να αξιοποιήσεις στο έπακρο είναι να κάνεις την αξιολόγηση δύο φορές. Την πρώτη φορά ατομικά και τη δεύτερη με την ομάδα σου, συζητώντας τις απόψεις και τις επιλογές σας.",
+        "intro_section5": "Όταν ολοκληρώσεις την αξιολόγησή σου, σκέψου αν και πώς είναι δυνατόν να ενεργήσεις με πιο φιλικό προς το περιβάλλον τρόπο.",
+        "intro_section6": "Μπορείς να προσθέσεις τον αριθμό των θετικών απαντήσεων, αλλά δεν είναι δυνατό να συγκρίνεις τους βαθμούς σου με άλλες ομάδες, επειδή τα προϊόντα σας είναι διαφορετικά και οι ευκαιρίες σας για μείωση του αποτυπώματος δεν είναι ίδιες.",
+        "intro_section7": "Καλή τύχη στη χρήση του Εργαλείου Αξιολόγησης Going Green και στη βελτίωση της απόδοσής σας ως νεαροί επιχειρηματίες."    
       }
   }
