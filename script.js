@@ -56,7 +56,8 @@ function setLanguage(language) {
 
 function getResults(language) {
     let issueTopics = checkResults(language);
-    let status = determineStatus(issueTopics, document.querySelectorAll('.question').length);
+    let qlen = document.querySelectorAll('.question').length
+    let status = determineStatus(issueTopics, qlen);
 
     const resultsDiv = document.getElementById("results");
     let text = document.createElement("p");
@@ -84,6 +85,14 @@ function getResults(language) {
 
         text.textContent = translations[language].you_should_work_harder;
         resultsDiv.appendChild(text);
+
+        if (issueTopics.length != qlen){
+            createList(issueTopics);
+
+            let text2 = document.createElement("p");
+            text2.textContent = translations[language].issues_with_followup
+            resultsDiv.appendChild(text2);
+        }
     }
 }
 
@@ -118,7 +127,7 @@ function checkResults(language) {
 
 function determineStatus(issueTopics, questionLength) {
     if (issueTopics.length === 0) return statuses.OK;
-    else if (issueTopics.length === questionLength) return statuses.BAD;
+    else if (issueTopics.length > questionLength - 3) return statuses.BAD;
     return statuses.MEDIUM;
 }
 
